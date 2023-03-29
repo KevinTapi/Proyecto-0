@@ -11,7 +11,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background-image: url(/public/backgroundpc.jpg);
+  background: background-color:rgba(204, 204, 204, 0.1)
   background-size: cover;
   left: 0;
   right: 0;
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 15px;
   z-index: 9998;
   border: 0;
-  background-image: url(/public/Background-Mobi-Ini.jpg);
+  background: background-color:rgba(204, 204, 204, 0.1)
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
@@ -210,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: background-image: url(/public/background-mobile.jpg);
+  background: background-color:rgba(204, 204, 204, 0.1)
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -246,7 +246,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background-image: url(/public/backgroundmobile.jpg);
+  background: background-color:rgba(204, 204, 204, 0.1)
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
